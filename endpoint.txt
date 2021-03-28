@@ -1,0 +1,15 @@
+1. http://localhost:8080/auth/register POST
+2. http://localhost:8080/auth/login?token={token} POST
+3. http://localhost:8080/book/add POST
+4. http://localhost:8080/book/by/name/{name} GET
+5. http://localhost:8080/book/by/author/{author} GET
+6. http://localhost:8080/book/by/category/{category} GET
+7. http://localhost:8080/book/by/name/category/author/{name}/{category}/{author} GET
+8. http://localhost:8080/book/add/userName/bookName/{userName}/{bookName}  POST
+9. http://localhost:8080/book/list GET
+10. http://localhost:8080/book/list/1 GET
+11. http://localhost:8080/book/dropOff/userName/bookName/{userName}/{bookName} POST
+12. http://localhost:8080/auth/logout GET
+
+Note: Please enable annotation processing enable mode on your IDE, 
+since l used Lombok in my project to auto generate getter and setter.
